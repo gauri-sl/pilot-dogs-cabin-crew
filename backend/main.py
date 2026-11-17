@@ -1,6 +1,6 @@
 from typing import Annotated
 from fastapi import Depends, FastAPI, Header, HTTPException
-from sample_data import FAQS, QUESTIONS, TOPICS, TRAINING_MATERIALS
+from sampledata import FAQS, QUESTIONS, TOPICS, TRAINING_MATERIALS
 #Note: still has placeholders in the functions
 #Need to secure down admin, right now, anyone can mark themselves as admin
 #Team should be able to assign admins only, or some kind of verification/approval
